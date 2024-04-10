@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638482542300000000
-    m_Hash: 1983639373
+      ticks: 638483496940000000
+    m_Hash: 384955222
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/bitbyte/Documents/Unity Project/rhythm/rhythm/Packages
-m_EditorVersion: 2022.3.22f1 (887be4894c44)
+m_EditorVersion: 2022.3.23f1 (dbb3f7c5b5c6)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
@@ -228,7 +228,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -252,7 +252,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.2d.aseprite
-    version: 1.1.1
+    version: 1.1.2
   keywords: []
   registry:
     id: main
@@ -3279,7 +3279,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3528,7 +3528,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3757,7 +3757,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -3994,12 +3994,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.aseprite@1.1.1
+- packageId: com.unity.2d.aseprite@1.1.2
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.1.2
   source: 1
-  resolvedPath: /Users/bitbyte/Documents/Unity Project/rhythm/rhythm/Library/PackageCache/com.unity.2d.aseprite@1.1.1
+  resolvedPath: /Users/bitbyte/Documents/Unity Project/rhythm/rhythm/Library/PackageCache/com.unity.2d.aseprite@1.1.2
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -4025,7 +4025,6 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.1.2
     compatible:
-    - 1.1.1
     - 1.1.2
     recommended: 1.1.2
     deprecated: []
@@ -4056,7 +4055,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   keywords:
   - 2d
   - Aseprite
@@ -4073,16 +4072,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638415153370000000
+  datePublishedTicks: 638460923030000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 4c5ce5be19fca25f82112eb80561965bc91c72c2
+    revision: 8275421014cb00f6e46a4dd3d73132df4b144ad4
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.1.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4195,7 +4194,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   keywords:
   - 2d
   registry:
@@ -4414,7 +4413,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.13
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4455,12 +4454,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.12
+- packageId: com.unity.burst@1.8.13
   testable: 0
   isDirectDependency: 0
-  version: 1.8.12
+  version: 1.8.13
   source: 1
-  resolvedPath: /Users/bitbyte/Documents/Unity Project/rhythm/rhythm/Library/PackageCache/com.unity.burst@1.8.12
+  resolvedPath: /Users/bitbyte/Documents/Unity Project/rhythm/rhythm/Library/PackageCache/com.unity.burst@1.8.13
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4605,7 +4604,6 @@ m_ResolvedPackages:
     - 1.8.12
     - 1.8.13
     compatible:
-    - 1.8.12
     - 1.8.13
     recommended: 1.8.13
     deprecated: []
@@ -4630,16 +4628,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406469710000000
+  datePublishedTicks: 638459163600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: a18fd968a92da11c38d1edd157e68ad9a490e67b
+    revision: 018c84715a0efcfda7f76841a1b0b0366e55f407
     path: 
   unityLifecycle:
-    version: 1.8.12
+    version: 1.8.13
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
