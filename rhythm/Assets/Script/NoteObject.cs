@@ -4,35 +4,38 @@ using UnityEngine;
 
 public class NoteObject : MonoBehaviour
 {
-    public bool canBePrassed;
-
+    public bool canBePressed;
     public KeyCode KeyToPress;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyToPress))
         {
-            if (canBePrassed)
+            if (canBePressed)
             {
                 gameObject.SetActive(false);
+                GameManger.instance.NoteHit();
             }
         }
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Activator")
         {
-            canBePrassed = true;
+            canBePressed = true;
         }
     }
+
     private void OnTriggerExit2D(Collider2D other)
     {
-        canBePrassed = false;
+        if (other.tag == "Activator")
+        {
+            if (gameObject.activeSelf == true)
+            {
+                GameManger.instance.NoteMissed();
+                canBePressed = false;
+            }
+        }
     }
 }

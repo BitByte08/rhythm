@@ -373,6 +373,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/BeatScroller.cs"
 "Assets/Script/ButtonController.cs"
+"Assets/Script/GameManager.cs"
 "Assets/Script/NoteObject.cs"
 -langversion:9.0
 
