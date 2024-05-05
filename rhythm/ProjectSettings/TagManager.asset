@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Button
+    uniqueID: 989324697
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
