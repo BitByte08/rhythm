@@ -5,15 +5,17 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ChangeScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        GetComponent<Button>().onClick.AddListener(StartGame);
-    }
+    public Button button;
+    private bool isChoose = false;
 
-    void StartGame()
+    void changeColor()
     {
-        SceneManager.LoadScene(2);
+        //SceneManager.LoadScene(2);
+        ColorBlock colorBlock = button.colors;
+        isChoose = !isChoose;
+        colorBlock.normalColor = isChoose ? new Color(0, 1f, 0, 1f) : Color.white;
+        colorBlock.selectedColor = isChoose ? new Color(0, 1f, 0, 1f) : Color.white;
+        button.colors = colorBlock;
         Debug.Log("Pressed");
     }
 }
